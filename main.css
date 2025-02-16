@@ -1,0 +1,72 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.pixelated{
+    font-family: "Press Start 2P" ;
+}
+
+header{
+    background-color: #493D9E;
+}
+
+.colored,
+.colored:hover,
+#cabecalho .nav-link:focus,
+#footer .nav-link:focus{
+    color: #FFF2AF;
+}
+
+.colored-dark,
+.nav-jogos .nav-link,
+.text-colored,
+.colored-dark a{
+    color: #493D9E;
+}
+
+#sobre,
+.navbar-toggler,
+#cabecalho .nav-link.active,
+#jogos{
+    background-color: #B2A5FF;
+}
+
+.carousel-item{
+    max-height: 600px;
+}
+
+#consoles,
+#contato{
+    background-color: #DAD2FF;
+}
+
+.nav-jogos .nav-link.active,
+#contato button,
+#consoles button,
+#jogos .btn,
+footer{
+    background-color: #493D9E;
+    color: #FFF2AF;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a{
+    text-decoration: none;
+}
+
+.title{
+    border-bottom: solid 2px #493D9E}
+
+.carousel-item img{
+    height: 1080px;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img{
+        height: 430px;
+    }
+}

@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retro Store</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top pt-4" id="cabecalho">
+        <div class="container">
+            <h1 class="nav-brand pixelated h2 colored">Retro Store</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-nav">
+                <ul class="nav nav-pills d-block d-md-flex mt-md-0 mt-3">
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link colored" href="#sobre">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre a loja
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link colored" href="#consoles">
+                            <i class="bi bi-joystick me-1"></i>
+                            Consoles
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link colored" href="#jogos">
+                            <i class="bi bi-controller me-1"></i>
+                            Jogos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link colored" href="#contato">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Contato
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-smooth-scroll="true" data-bs-target="#cabecalho">
+        <section id="sobre">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel-store">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2000">
+                        <img src="./imago/slide/slide1.jpg" >
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./imago/slide/slide2.jpg">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./imago/slide/slide3.jpg">
+                    </div>
+                </div>
+                <button data-bs-target="#carousel-store" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button data-bs-target="#carousel-store" data-bs-slide="next" class="carousel-control-next" type="button">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel-store" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel-store" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel-store" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./imago/store_img.jpg" class="d-block w-100 rounded">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="pixelated h3 colored-dark">Sobre <span class="colored">a Loja</span></h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem eligendi laboriosam nesciunt, magni non natus harum consequatur unde iure, consequuntur, dolore neque eius necessitatibus. Fuga expedita nam reprehenderit aperiam totam!</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem eligendi laboriosam nesciunt, magni non natus harum consequatur unde iure, consequuntur, dolore neque eius necessitatibus. Fuga expedita nam reprehenderit aperiam totam!</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem eligendi laboriosam nesciunt, magni non natus harum consequatur unde iure, consequuntur, dolore neque eius necessitatibus. Fuga expedita nam reprehenderit aperiam totam!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="consoles" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row pb-3">
+                    <h2 class="pixelated colored-dark">Consoles</h2>
+                </div>
+                <div class="row md-4">
+                    <div class="produtos col-md-4 pb-4">
+                        <img src="./imago/consoles/NES.jpg" class="d-block w-100 rounded mb-2">
+                        <h3 class="pixelated fs-6">Nintendo Entertainment System</h3>
+                        <p>Descrição do Produto</p>
+                        <div class="price">
+                            <strong>R$0,00</strong>
+                        </div>
+                        <button class="btn mt-2 ">Reservar</button>
+                    </div>
+                    <div class="produtos col-md-4 pb-4">
+                        <img src="./imago/consoles/Master_system.jpg" class="d-block w-100 rounded mb-2">
+                        <h3 class="pixelated fs-6">Master System    </h3>
+                        <p>Descrição do Produto</p>
+                        <div class="price">
+                            <strong>R$0,00</strong>
+                        </div>
+                        <button class="btn mt-2 ">Reservar</button>
+                    </div>
+                    <div class="produtos col-md-4 pb-4">
+                        <img src="./imago/consoles/SNES.png" class="d-block w-100 rounded mb-2">
+                        <h3 class="pixelated fs-6">Super Nintendo</h3>
+                        <p>Descrição do Produto</p>
+                        <div class="price">
+                            <strong>R$0,00</strong>
+                        </div>
+                        <button class="btn mt-2 ">Reservar</button>
+                    </div>
+                    <div class="produtos col-md-4 pb-4">
+                        <img src="./imago/consoles/Mega_drive.jpg" class="d-block w-100 rounded mb-2">
+                        <h3 class="pixelated fs-6">Mega Drive</h3>
+                        <p>Descrição do Produto</p>
+                        <div class="price">
+                            <strong>R$0,00</strong>
+                        </div>
+                        <button class="btn mt-2 ">Reservar</button>
+                    </div>
+                    <div class="produtos col-md-4 pb-4">
+                        <img src="./imago/consoles/PS1.jpg" class="d-block w-100 rounded mb-2">
+                        <h3 class="pixelated fs-6">Playstation 1</h3>
+                        <p>Descrição do Produto</p>
+                        <div class="price">
+                            <strong>R$0,00</strong>
+                        </div>
+                        <button class="btn mt-2 ">Reservar</button>
+                    </div>
+                    <div class="produtos col-md-4 pb-4">
+                        <img src="./imago/consoles/N64.jpg" class="d-block w-100 rounded mb-2">
+                        <h3 class="pixelated fs-6">Nintendo 64</h3>
+                        <p>Descrição do Produto</p>
+                        <div class="price">
+                            <strong>R$0,00</strong>
+                        </div>
+                        <button class="btn mt-2 ">Reservar</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="jogos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row title">
+                    <h2 class="pixelated colored text-center">
+                        Jogos
+                    </h2>
+                </div>
+                <div class="row pt-3">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-jogos mb-md-0 mb-3">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#NES" class="fw-bold text-start nav-link active">NES</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#Master-System" class="fw-bold text-start nav-link">Master System</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#SNES" class="fw-bold text-start nav-link">SNES</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#Mega-Drive" class="fw-bold text-start nav-link">Mega Drive</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#N64" class="fw-bold text-start nav-link">N64</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#PS1" class="fw-bold text-start nav-link">PS1</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="NES">
+                                <div class="row">
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/NES_game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Super Mario 3</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/NES_game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Super Mario 3</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/NES_game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Super Mario 3</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/NES_game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Super Mario 3</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/NES_game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Super Mario 3</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/NES_game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Super Mario 3</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/NES_game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Super Mario 3</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/NES_game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Super Mario 3</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/NES_game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Super Mario 3</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/NES_game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Super Mario 3</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/NES_game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Super Mario 3</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/NES_game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Super Mario 3</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="Master-System">
+                                <div class="row">
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/master_system_game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Alex Kidd in Miracle World</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/master_system_game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Alex Kidd in Miracle World</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/master_system_game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Alex Kidd in Miracle World</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/master_system_game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Alex Kidd in Miracle World</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/master_system_game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Alex Kidd in Miracle World</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/master_system_game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Alex Kidd in Miracle World</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/master_system_game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Alex Kidd in Miracle World</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/master_system_game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Alex Kidd in Miracle World</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/master_system_game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Alex Kidd in Miracle World</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/master_system_game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Alex Kidd in Miracle World</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/master_system_game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Alex Kidd in Miracle World</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/master_system_game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Alex Kidd in Miracle World</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="SNES">
+                                <div class="row">
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/SNES_game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Megaman X</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/SNES_Game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Megaman X</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/SNES_Game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Megaman X</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/SNES_Game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Megaman X</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/SNES_Game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Megaman X</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/SNES_Game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Megaman X</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/SNES_Game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Megaman X</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/SNES_Game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Megaman X</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/SNES_Game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Megaman X</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/SNES_Game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Megaman X</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/SNES_Game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Megaman X</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/SNES_Game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Megaman X</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="Mega-Drive">
+                                <div class="row">
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/Mega_drive_game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Sonic the hedgehog 2</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/Mega_drive_game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Sonic the hedgehog 2</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/Mega_drive_game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Sonic the hedgehog 2</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/Mega_drive_game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Sonic the hedgehog 2</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/Mega_drive_game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Sonic the hedgehog 2</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/Mega_drive_game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Sonic the hedgehog 2</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/Mega_drive_game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Sonic the hedgehog 2</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/Mega_drive_game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Sonic the hedgehog 2</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/Mega_drive_game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Sonic the hedgehog 2</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/Mega_drive_game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Sonic the hedgehog 2</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/Mega_drive_game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Sonic the hedgehog 2</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/Mega_drive_game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Sonic the hedgehog 2</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="N64">
+                                <div class="row">
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/N64_game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Super Mario 64</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/N64_game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Super Mario 64</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/N64_game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Super Mario 64</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/N64_game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Super Mario 64</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/N64_game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Super Mario 64</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/N64_game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Super Mario 64</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/N64_game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Super Mario 64</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/N64_game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Super Mario 64</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/N64_game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Super Mario 64</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/N64_game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Super Mario 64</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/N64_game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Super Mario 64</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/N64_game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Super Mario 64</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="PS1">
+                                <div class="row">
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/PS1_game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Castlevania Symphony Of The Night</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/PS1_game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Castlevania Symphony Of The Night</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/PS1_game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Castlevania Symphony Of The Night</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/PS1_game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Castlevania Symphony Of The Night</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/PS1_game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Castlevania Symphony Of The Night</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/PS1_game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Castlevania Symphony Of The Night</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/PS1_game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Castlevania Symphony Of The Night</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                    <div class="produtos col-md-3">
+                                        <img class="d-block w-100" src="./imago/jogos/PS1_game1.jpg" >
+                                        <h3 class="h5 fw-bold mt-2">Castlevania Symphony Of The Night</h3>
+                                        <p>Descrição do Produto</p>
+                                        <div class="price">
+                                            <strong>R$0,00</strong>
+                                        </div>
+                                        <button class="btn mt-2 mb-3">Reservar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="pixelated pb-5 text-center colored-dark">Contato</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold">Seu nome</label>
+                                <input type="text" id="nome" name="nome" required class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold">Seu e-mail</label>
+                                <input type="email" id="email" name="email" required class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="reserva" class="form-label fw-bold">Sua reserva</label>
+                                <input type="text" id="reserva" name="reserva" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold">Seu telefone (opicional)</label>
+                                <input type="tel" id="telefone" name="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" name="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="colored-dark fs-4">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="colored-dark bi bi-facebook"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="colored-dark bi bi-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="colored-dark bi bi-whatsapp"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="colored-dark fs-4">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua Teste Exemplo nº123, Bairro AAAAAAA - São Paulo - SP
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="p-1">
+            <div class="container">
+                <div>
+                  <p class="text-center mb-0">© 2025 Danilo Machuca de Souza. Todos os direitos reservados</p>
+                </div>
+              </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="js/messages_pt_BR.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
