@@ -12,6 +12,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML5
 - CSS3 (utilizando apenas Bootstrap para estilização e responsividade)
+- JavaScript (para funcionalidades cimples como masks e scroll)
 
 ## 🔧 Como Acessar
 
